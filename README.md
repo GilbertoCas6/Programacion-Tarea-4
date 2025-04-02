@@ -8,24 +8,6 @@ Instalar Java y MySQL: Asegúrate de tener Java (JDK 8 o superior) y MySQL insta
 
 Base de Datos: Crea una base de datos en MySQL llamada login_db y una tabla de usuarios con este código SQL:
 
-CREATE DATABASE login_db;
-USE login_db;
-
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
-    apellido VARCHAR(50) NOT NULL,
-    usuario VARCHAR(50) UNIQUE NOT NULL,
-    telefono VARCHAR(15) NOT NULL,
-    correo VARCHAR(100) UNIQUE NOT NULL,
-    contraseña VARCHAR(255) NOT NULL
-);
-
-Agregar un usuario para probar el login:
-
-INSERT INTO usuarios (nombre, apellido, usuario, telefono, correo, contraseña) 
-VALUES ('Juan', 'Pérez', 'juan123', '123456789', 'juan@example.com', '12345');
-
 Configurar la conexión: Asegúrate de que las credenciales en la clase ConexionBD.java sean correctas (usuario y contraseña de tu MySQL).
 
 Ejecutar el proyecto: Corre la clase LoginUI.java. Ahí se abrirá la ventana donde podrás registrarte o iniciar sesión.
