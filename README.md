@@ -1,3 +1,5 @@
+Nota: La clase Main.java está presente en el proyecto pero no se utiliza en la ejecución del sistema. Fue generada automáticamente y no afecta al funcionamiento del código.
+
 Proyecto de Tarea 4 - Sistema de Login
 Este es un sistema de login y registro que desarrollé para la Tarea 4. Permite a los usuarios registrarse y luego iniciar sesión en una interfaz gráfica simple. El proyecto está hecho en Java con Swing para la interfaz, y se conecta a una base de datos MySQL para guardar los usuarios.
 
